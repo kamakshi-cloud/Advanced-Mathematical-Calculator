@@ -63,6 +63,25 @@ No additional software or server setup is required.
 * To provide quick access to commonly used mathematical formulas.
 * To improve practical understanding of frontend web development.
 
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Scientific Calculator
+
+![Scientific Calculator](screenshots/Scientific%20Calculator.png)
+
+### Statistics Calculator
+
+![Statistics Calculator](screenshots/Statistics%20Calculator.png)
+
+### Mathematical Formulas
+
+![Mathematical Formulas](screenshots/Formulas.png)
+
+
 ## 🔮 Future Enhancements
 
 * Add more advanced mathematical operations.
