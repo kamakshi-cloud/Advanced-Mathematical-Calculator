@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* LIGHT MODE */
+body {
+    background: url('https://images.unsplash.com/photo-1509228627152-72ae9ae6848d') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    transition: 0.5s;
+}
+
+/* CARD */
+.card {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin: 30px auto;
+    width: 320px;
+    border-radius: 15px;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: black;
+    color: white;
+}
+
+/* INPUT */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* TOGGLE BUTTON */
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* 🌙 DARK MODE FIX */
+.dark {
+    background: url('https://images.unsplash.com/photo-1519681393784-d120267933ba') no-repeat center/cover;
+    color: #fff;
+}
+
+/* Apply dark styles to ALL elements */
+.dark .card {
+    background: rgba(0,0,0,0.8);
+}
+
+.dark button {
+    background: #222;
+    color: #fff;
+}
+
+.dark input {
+    background: #111;
+    color: #fff;
+    border: 1px solid #555;
+}
